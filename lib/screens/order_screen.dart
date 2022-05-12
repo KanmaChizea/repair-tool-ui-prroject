@@ -1,5 +1,3 @@
-import 'package:capstone_project_practice/constants.dart' as globals;
-import 'package:capstone_project_practice/models/cart_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -17,10 +15,11 @@ class OrderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
+
     return Scaffold(
         appBar: AppBar(
           leading: IconButton(
-            icon: Icon(Icons.arrow_back_ios),
+            icon: const Icon(Icons.arrow_back_ios),
             onPressed: () => Navigator.of(context).pop(),
           ),
           title: Text('Fix ${appliance.name}'),
@@ -102,7 +101,7 @@ class OrderScreen extends StatelessWidget {
                     Expanded(
                       child: OrderButton(
                         onPrimary: const Color(0xFFE8E8E8),
-                        primary: const Color(0xFF1B1B1D),
+                        primary: const Color.fromARGB(255, 25, 25, 36),
                         buttonName: 'Order repair',
                         onpressed: () {},
                       ),

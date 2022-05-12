@@ -11,12 +11,12 @@ class OrderButton extends StatelessWidget {
   final String buttonName;
   final Color onPrimary;
   final Color primary;
-  final Function onpressed;
+  final VoidCallback onpressed;
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () => onpressed,
+      onPressed: onpressed,
       child: Text(
         buttonName,
         style:

@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
             color: Colors.transparent,
             centerTitle: true),
       ),
-      home: SplashScreen(),
+      home: const SplashScreen(),
       routes: {
         '/login': (context) => const Login(),
         '/signup': (context) => const SignUp(),
