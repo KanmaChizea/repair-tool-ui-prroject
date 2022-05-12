@@ -7,7 +7,7 @@ Screenshots can be found in lib/screenshots folder.
 
 Team Members:
 Ogechukwukanma Chizea (Group Leader)
-Richard
+Edaware Oghenekaro
 
 
 
